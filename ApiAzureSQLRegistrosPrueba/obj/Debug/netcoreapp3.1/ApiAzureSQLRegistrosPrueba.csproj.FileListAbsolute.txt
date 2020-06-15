@@ -52,3 +52,4 @@
 /home/akasha/Desktop/Azure-SQL/ApiAzureSQLRegistrosPrueba/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /home/akasha/Desktop/Azure-SQL/ApiAzureSQLRegistrosPrueba/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 /home/akasha/Desktop/Azure-SQL/ApiAzureSQLRegistrosPrueba/obj/Debug/netcoreapp3.1/ApiAzureSQLRegistrosPrueba.csproj.CopyComplete
+/home/akasha/Desktop/Azure-SQL/ApiAzureSQLRegistrosPrueba/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
