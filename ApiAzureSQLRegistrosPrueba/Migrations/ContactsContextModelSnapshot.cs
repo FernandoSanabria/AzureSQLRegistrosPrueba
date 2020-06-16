@@ -20,8 +20,10 @@ namespace ApiAzureSQLRegistrosPrueba.Migrations
 
             modelBuilder.Entity("ApiAzureSQLRegistrosPrueba.Models.Contacts", b =>
                 {
-                    b.Property<string>("Identificador")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Identificador")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");

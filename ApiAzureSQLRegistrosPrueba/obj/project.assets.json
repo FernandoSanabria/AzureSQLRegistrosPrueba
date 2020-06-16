@@ -4965,7 +4965,8 @@
     ]
   },
   "packageFolders": {
-    "/home/akasha/.nuget/packages/": {}
+    "/home/akasha/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4976,6 +4977,9 @@
       "packagesPath": "/home/akasha/.nuget/packages/",
       "outputPath": "/home/akasha/Desktop/Azure-SQL/ApiAzureSQLRegistrosPrueba/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/home/akasha/.nuget/NuGet/NuGet.Config"
       ],

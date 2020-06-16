@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApiAzureSQLRegistrosPrueba.Migrations
 {
     [DbContext(typeof(ContactsContext))]
-    [Migration("20200615004946_InitialCreate")]
+    [Migration("20200616033017_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -22,8 +22,10 @@ namespace ApiAzureSQLRegistrosPrueba.Migrations
 
             modelBuilder.Entity("ApiAzureSQLRegistrosPrueba.Models.Contacts", b =>
                 {
-                    b.Property<string>("Identificador")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Identificador")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");

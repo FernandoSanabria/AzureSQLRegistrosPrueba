@@ -10,7 +10,8 @@ namespace ApiAzureSQLRegistrosPrueba.Migrations
                 name: "ContactSet",
                 columns: table => new
                 {
-                    Identificador = table.Column<string>(nullable: false),
+                    Identificador = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Nombre = table.Column<string>(nullable: true),
                     Email = table.Column<string>(nullable: true),
                     Telefono = table.Column<int>(nullable: false)
