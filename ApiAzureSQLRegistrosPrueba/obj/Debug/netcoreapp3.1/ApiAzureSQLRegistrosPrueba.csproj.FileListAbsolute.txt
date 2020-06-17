@@ -53,3 +53,8 @@
 /home/akasha/Desktop/Azure-SQL/ApiAzureSQLRegistrosPrueba/obj/Debug/netcoreapp3.1/ApiAzureSQLRegistrosPrueba.dll
 /home/akasha/Desktop/Azure-SQL/ApiAzureSQLRegistrosPrueba/obj/Debug/netcoreapp3.1/ApiAzureSQLRegistrosPrueba.pdb
 /home/akasha/Desktop/Azure-SQL/ApiAzureSQLRegistrosPrueba/obj/Debug/netcoreapp3.1/ApiAzureSQLRegistrosPrueba.genruntimeconfig.cache
+/home/akasha/Desktop/Azure-SQL/ApiAzureSQLRegistrosPrueba/bin/Debug/netcoreapp3.1/publish/web.config
+/home/akasha/Desktop/Azure-SQL/ApiAzureSQLRegistrosPrueba/bin/Debug/netcoreapp3.1/publish/ApiAzureSQLRegistrosPrueba.deps.json
+/home/akasha/Desktop/Azure-SQL/ApiAzureSQLRegistrosPrueba/bin/Debug/netcoreapp3.1/publish/ApiAzureSQLRegistrosPrueba.runtimeconfig.json
+/home/akasha/Desktop/Azure-SQL/ApiAzureSQLRegistrosPrueba/bin/Debug/netcoreapp3.1/publish/appsettings.Development.json
+/home/akasha/Desktop/Azure-SQL/ApiAzureSQLRegistrosPrueba/bin/Debug/netcoreapp3.1/publish/appsettings.json
