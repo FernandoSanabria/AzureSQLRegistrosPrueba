@@ -1,0 +1,27 @@
+*** Azure SQL
+
+-- INSERT INTO SalesLT.ProductCategory (Name, rowguid,ModifiedDate)
+-- VALUES ('Drugs','d2e3f1a8-56c4-4f36-b29d-5659999d2789',2020-06-14)
+
+
+DELETE FROM SalesLT.ProductCategory WHERE Name='Drugs'
+
+UPDATE SalesLT.ProductCategory SET Name='DULCESITO' WHERE ProductCategoryID = 42 
+
+
+SELECT * FROM SalesLT.ProductCategory
+
+
+
+
+dotnet new webapi -n 'ApiSQLRegistrosPrueba'
+dotnet add package Microsoft.EntityFrameworkCore --version 3.1.5
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 3.1.5
+dotnet ef migrations add InitialCreate
+dotnet ef migrations add InitialCreate
+
+dotnet tool update --global dotnet-ef --version 3.1.5
+
+dotnet ef database update
+dotnet publish -c Release -o ./publish
+
